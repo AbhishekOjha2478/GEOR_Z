@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import LoggedInNavbar from "../components/LoggedInNavbar";
 import { useState } from "react";
+import logo from '../images/ai_logo.jpg'
 import {
   FlexContainer,
   HeadingContainer,
@@ -26,7 +27,7 @@ export default function MainPage() {
       <LoggedInNavbar></LoggedInNavbar>
       {chatArrayData.length === 0 ? (
         <FlexContainer>
-          <ImageContainer></ImageContainer>
+          <ImageContainer><img src={logo} style={{objectFit:'cover', width:'140px', borderRadius: '50%'}}/></ImageContainer>
           <HeadingContainer>
             <StyledHeading>Ask me anything...</StyledHeading>
             <StyledSubheading>

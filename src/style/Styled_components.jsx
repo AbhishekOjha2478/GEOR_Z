@@ -34,8 +34,8 @@ const StyledSpan = styled.span`
 const ImageContainer = styled.div`
   height: 140px;
   width: 140px;
-  border: 2px solid;
   border-radius: 50%;
+  border: 2px solid #3300ff;
 `;
 const HeadingContainer = styled.div`
   text-align: center;
@@ -192,6 +192,7 @@ const AiDpContainer = styled.div`
   border-radius: 50%;
   background: white;
   margin: 0 10px;
+  border: 2px solid #0068ff !important;  
 `;
 const TextMessageBox = styled.div`
   border-radius: 22px;

@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import logo from '../images/ai_logo.jpg'
 import {
   FlexContainer,
   HeadingContainer,
@@ -23,7 +24,7 @@ export default function LandingPage() {
     <>
       <Navbar></Navbar>
       <FlexContainer>
-        <ImageContainer></ImageContainer>
+        <ImageContainer><img src={logo} style={{objectFit:'cover', width:'140px', borderRadius: '50%'}}/></ImageContainer>
         <HeadingContainer>
           <StyledHeading>
             Hi I am <StyledSpan>Geor_Z</StyledSpan>, your smart friend

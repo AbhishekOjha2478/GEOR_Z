@@ -3,7 +3,7 @@ import { useSpeechSynthesis } from "react-speech-kit";
 import VolumeUpIcon from "@mui/icons-material/VolumeUp";
 import ReactMarkdown from 'react-markdown';
 import { useState } from "react";
-
+import logo from '../images/ai_logo.jpg';
 import {
   AiDpContainer,
   StyledResponseBox,
@@ -40,7 +40,7 @@ export default function ResponseBox({ message }) {
         <TextMessageBox>
           <ReactMarkdown>{message}</ReactMarkdown>
         </TextMessageBox>
-        <AiDpContainer></AiDpContainer>
+        <AiDpContainer><img src={logo} style={{objectFit:'cover', width:'46px', borderRadius: '50%'}}></img></AiDpContainer>
       </StyledResponseBox>
     </>
   );
