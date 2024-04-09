@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background: linear-gradient(112.01deg, #3300ff 1.25%, #fd7900 100%);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body > #root > div {
+  height: 100vh;
+}
