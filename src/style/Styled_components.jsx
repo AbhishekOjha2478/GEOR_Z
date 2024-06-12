@@ -91,7 +91,7 @@ const StyledButton = styled.button`
 `;
 const FooterContainer = styled.div`
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   position: fixed;
   bottom: 0px;
   background: #00000087;
@@ -125,9 +125,9 @@ const StyledMic = styled.button`
   cursor: pointer;
   border: none;
 `;
-const StyledInput = styled.input`
+const StyledInput = styled.textarea`
   width: 88%;
-  height: 52%;
+  height: 25px;
   border: none;
   outline: none;
   font-family: Inika;
@@ -135,15 +135,19 @@ const StyledInput = styled.input`
   font-weight: 400;
   padding: 6px 20px;
   background-color: #6b7a7a00;
+  resize: none;
+  overflow-y: hidden;
 `;
 const StyledQues = styled.div`
   width: 60%;
-  height: 50%;
+  min-height: 50%;
   border-radius: 46px;
   background: #d9d9d9d1;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px;
+  margin: 10px;
 `;
 const StyledSearchButton = styled.button`
   border: none;

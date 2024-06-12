@@ -7,11 +7,15 @@ import {
 
 export default function QueryBox({ message }) {
   return (
-    <>      
-        <StyledQueryBox>
-          <UserDpContainer></UserDpContainer>
-          <TextMessageBox>{message}</TextMessageBox>
-        </StyledQueryBox>
+    <>
+      <StyledQueryBox>
+        <UserDpContainer></UserDpContainer>
+        <TextMessageBox
+          dangerouslySetInnerHTML={{
+            __html: message.replace(/\n/g, "<br />"),
+          }}
+        />
+      </StyledQueryBox>
     </>
   );
 }
