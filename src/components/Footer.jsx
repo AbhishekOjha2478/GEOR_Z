@@ -3,7 +3,7 @@ import KeyboardIcon from "@mui/icons-material/Keyboard";
 import MicIcon from "@mui/icons-material/Mic";
 import useSound from "use-sound";
 import blip from "../sounds/blip-131856.mp3";
-import stopbeep from "../sounds/stopbeep.mp3";
+import startbeep from "../sounds/startbeep.mp3";
 import ClearIcon from "@mui/icons-material/Clear";
 import SearchIcon from "@mui/icons-material/Search";
 // import OpenAI from "openai";
@@ -119,7 +119,7 @@ export default function Footer({ updateChatArray }) {
               onClick={() => {
                 try {
                   listen();
-                  setMicSound(stopbeep);
+                  setMicSound(startbeep);
                   playSound();
                 } catch {
                   stop();
