@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/GEOR_Z/static/css/main.6c111555.css",
+    "main.js": "/GEOR_Z/static/js/main.b962da23.js",
+    "static/js/885.0e15d515.chunk.js": "/GEOR_Z/static/js/885.0e15d515.chunk.js",
+    "static/media/ai_logo.jpg": "/GEOR_Z/static/media/ai_logo.b92922dd40593e660d1a.jpg",
+    "static/media/blip-131856.mp3": "/GEOR_Z/static/media/blip-131856.86a3fcc09d5717744473.mp3",
+    "static/media/startbeep.mp3": "/GEOR_Z/static/media/startbeep.37210172330c490b3141.mp3",
+    "index.html": "/GEOR_Z/index.html",
+    "main.6c111555.css.map": "/GEOR_Z/static/css/main.6c111555.css.map",
+    "main.b962da23.js.map": "/GEOR_Z/static/js/main.b962da23.js.map",
+    "885.0e15d515.chunk.js.map": "/GEOR_Z/static/js/885.0e15d515.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c111555.css",
+    "static/js/main.b962da23.js"
+  ]
+}
