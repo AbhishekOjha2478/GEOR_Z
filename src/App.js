@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import LandingPage from './screens/LandingPage';
 import MainPage from "./screens/MainPage";
@@ -6,12 +6,12 @@ import MainPage from "./screens/MainPage";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="/mainpage" element={<MainPage/>}/>         
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
